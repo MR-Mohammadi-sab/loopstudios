@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstudios</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- hero -->
+     <section id="hero">
+        <div class="flex flex-col px-8 py-12 text-white lg:px-24 relative">
+            <div class="flex justify-between pb-11">
+                <img src="./images/logo.svg" alt="">
+                <!-- nav hidden -->
+                <div class="hidden md:block">
+                    <!-- nav -->
+                <div class="flex items-center justify-center space-x-8 font-sans font-medium h-6">
+                    <div class="group">
+                        <a href="#">About</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group  ">
+                        <a href="#">Careers</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Events</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Products</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Support</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+                   
+
+                </div>
+            </div>
+             <!-- hamburger button -->
+            <div class="md:hidden">
+                <button
+                  id="menu-btn"
+                  type="button"
+                  class="z-40 block hamburger md:hidden focus:outline-none "
+                >
+                  <span class="hamburger-top"></span>
+                  <span class="hamburger-middle"></span>
+                  <span class="hamburger-bottom"></span>
+                </button>
+              </div>
+            </div>
+            <!-- Mobile Menu -->
+             <div id="menu" class="menu hidden md:hidden  min-h-screen w-full absolute top-0 right-0 left-0 bg-black">
+                <div class="flex flex-col justify-center self-start font-sans font-medium h-6 text-white  mt-64 mb-14 md:mt-6 space-y-3 ml-12 ">
+                    <div class="group">
+                        <a href="#">About</a>
+                        <div class="group-hover:border border-blue-50  w-12"></div>
+                    </div>
+
+                    <div class="group  ">
+                        <a href="#">Careers</a>
+                        <div class="group-hover:border border-blue-50 w-12"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Events</a>
+                        <div class="group-hover:border border-blue-50 w-12"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Products</a>
+                        <div class="group-hover:border border-blue-50 w-12"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Support</a>
+                        <div class="group-hover:border border-blue-50 w-12"></div>
+                    </div>
+                 
+                </div>
+             </div>
+
+
+            <div class="flex max-w-lg pb-28">
+                <h2 class=" border border-blue-50 uppercase md:text-6xl text-5xl my-16 pl-[10%]  py-6 ">
+                    Impressive Experiences That Deliver
+                </h2>
+                
+            </div>
+        </div>
+     </section>
+
+     <!-- Feature -->
+      <section id="Feature">
+        <div class="flex flex-col  space-y-3 relative mt-28 px-8 md:px-0 lg:px-8 ">
+            <img src="./images/desktop/image-interactive.jpg" alt="" class="md:w-[900px]" >
+            <div class="md:absolute bg-white max-w-xl px-12 py-12 right-0 top-72">
+                <h1 class=" text-5xl text-center md:text-left mt-6 mb-8 uppercase font-sans">The leader in interactive VR</h1>
+                <p class="text-center md:text-left text-xl">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Creations -->
+
+      <section id="Creations">
+        <div class="flex max-w-6xl flex-col mx-8 md:mx-auto mt-24 space-y-6 mb-32">
+            <div class="flex justify-between items-center my-12">
+                <h1 class="text-5xl uppercase">Our Creations</h1>
+                <button class="border border-black hover:bg-black hover:text-white tracking-widest uppercase px-4 py-1 hidden md:block">see all</button>
+            </div>
+            <!-- item 1 container -->
+            <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
+                <!-- item 1 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-deep-earth.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-deep-earth.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-24 font-sans group-hover:scale-110 duration-200">Deep Earth</h1>
+
+                </div>
+                <!-- item 2 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-night-arcade.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-24 font-sans group-hover:scale-110 duration-200">Night Arcade</h1>
+
+                </div>
+
+                <!-- item 3 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-soccer-team.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-soccer-team.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-32 font-sans group-hover:scale-110 duration-200">Soccer Team VR</h1>
+
+                </div>
+                <!-- item 4 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-grid.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-grid.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-24 font-sans group-hover:scale-110 duration-200">The Grid</h1>
+
+                </div>
+            </div>
+
+                        <!-- item 2 container -->
+            <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
+                <!-- item 1 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-from-above.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-from-above.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-32 font-sans group-hover:scale-110 duration-200">From Up Above VR</h1>
+
+                </div>
+                <!-- item 2 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-pocket-borealis.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-pocket-borealis.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-32 font-sans group-hover:scale-110 duration-200">Pocket Borealis</h1>
+
+                </div>
+
+                <!-- item 3 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-curiosity.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-curiosity.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-32 font-sans group-hover:scale-110 duration-200">The Curiosity</h1>
+
+                </div>
+                <!-- item 4 -->
+                <div class="flex flex-col md:flex-row relative group md:w-1/4 overflow-hidden  ">
+                    <img src="./images/desktop/image-fisheye.jpg" alt="" class="group-hover:scale-110 w-full duration-200 hidden md:block">
+                    <!-- mobile -->
+                    <img src="./images/mobile/image-fisheye.jpg" alt="" class="group-hover:scale-110 w-full duration-200 md:hidden">
+
+                    <div class="absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gray-100 group-hover:bg-opacity-70"></div>
+                    <h1 class="text-3xl absolute bottom-3 left-5 text-white group-hover:text-black w-32 font-sans group-hover:scale-110 duration-200">Make It Fisheye</h1>
+
+                </div>
+            </div>
+           
+                <button class="border border-black hover:bg-black hover:text-white tracking-widest uppercase  py-2 md:hidden">see all</button>
+          
+
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="text-center md:text-left flex justify-between bg-black md:px-auto px-8 py-8 flex-col md:flex-row w-6xl">
+            <div class="flex flex-col">
+                <div><img src="./images/logo.svg" alt="" class="mx-auto md:mx-0"></div>
+                <div class="">
+                    <!-- nav -->
+                <div class="flex flex-col md:flex-row items-center justify-center md:space-x-8 font-sans font-medium h-6 text-white  mt-24 mb-14 md:mt-6  text-center space-y-3 md:space-y-0">
+                    <div class="group">
+                        <a href="#">About</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group  ">
+                        <a href="#">Careers</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Events</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Products</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Support</a>
+                        <div class="group-hover:border border-blue-50 mx-3"></div>
+                    </div>
+                 
+                </div>
+            </div>
+
+            </div>
+
+            <div class="flex flex-col space-y-6 mt-8">
+                <div class="flex space-x-3 mx-auto">
+                    <a href="#">
+                        <img src="./images/icon-facebook.svg" alt="" class="h-6">
+                    </a>
+
+                    <a href="#">
+                        <img src="./images/icon-twitter.svg" alt="" class="h-6">
+                    </a>
+
+                    <a href="#">
+                        <img src="./images/icon-pinterest.svg" alt="" class="h-6">
+                    </a>
+
+                    <a href="#">
+                        <img src="./images/icon-instagram.svg" alt="" class="h-6">
+                    </a>
+
+                </div>
+                <a href="" class="text-gray-400 text-2xl font-light">Github MR-mohammadi-sab</a>
+                >
+            </div>
+
+
+        </div>
+      </footer>
+
+      <script>
+        const btn =document.getElementById("menu-btn");
+        const menu=document.getElementById("menu");
+        btn.addEventListener('click',()=>{
+            btn.classList.toggle("open")
+            menu.classList.toggle("hidden")
+        })
+      </script>
+</body>
+</html>
